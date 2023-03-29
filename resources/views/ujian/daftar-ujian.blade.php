@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('content')
 <h3>Daftar Ujian</h3>
-<a href="">
+<a href="/tambah-ujian">
     <button type="button" class="btn btn-success" style="color:white;">Tambah Data</button>
 </a>
 <div class="table-responsive">
