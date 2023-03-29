@@ -23,10 +23,10 @@
                 <td>{{ $x->mata_pelajaran }}</td>
                 <td>{{ $x->dibuat_oleh }}</td>
                 <td>
-                    <a href="">
+                    <a href="/edit-ujian/{{ $x->id }}">
                         <button type="button" class="btn btn-warning">Edit</button>
                     </a>
-                    <a href="">
+                    <a href="/hapus-ujian/{{ $x->id }}">
                         <button type="button" style="color: white;" class="btn btn-danger">Hapus</button>
                     </a>
                 </td>

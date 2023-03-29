@@ -25,3 +25,6 @@ Route::get('/dashboard', function(){
 Route::get('/daftar-ujian', [UjianController::class, 'index'])->name('ujian');
 Route::get('/tambah-ujian', [UjianController::class, 'create'])->name('createujian');
 Route::post('/insert-ujian', [UjianController::class, 'insert'])->name('insertujian');
+Route::get('/edit-ujian/{id}', [UjianController::class, 'edit'])->name('editujian');
+Route::post('/update-ujian/{id}', [UjianController::class, 'update'])->name('updateujian');
+Route::get('/hapus-ujian/{id}', [UjianController::class, 'delete'])->name('deleteujian');
